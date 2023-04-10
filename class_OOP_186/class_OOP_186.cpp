@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class mahasiswa {
+class Mahasiswa {
 public:
 	string nim;
 	string nama;
@@ -22,7 +22,13 @@ public:
 		cin >> kode;
 		cout << "masukan nama matakuliah : ";
 		cin >> namam;
-		cout << "Jumlah SKS : " \;
+		cout << "Jumlah SKS : ";
 		cin >> sks;
 	}
 };
+
+int main()
+{
+	Mahasiswa mhs1;
+	Matakuliah mk;
+}
